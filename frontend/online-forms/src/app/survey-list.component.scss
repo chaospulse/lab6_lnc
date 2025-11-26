@@ -1,0 +1,27 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.survey-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.survey-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+}
+
+.muted { color: #666; }
+.center { text-align: center; }
+
+.actions { display:flex; gap:0.5rem }
+.btn.outline { background: transparent; color: #6f42c1; border:1px solid #e6dfff }

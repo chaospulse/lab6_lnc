@@ -1,0 +1,14 @@
+.container { max-width:1024px; margin:2rem auto; padding:1rem }
+.form-card { padding:1rem 1.25rem; border-radius:12px; }
+label { display:block; margin-top:0.5rem; font-weight:600 }
+input, textarea { width:100% }
+.field { margin-bottom:1rem }
+.error { color:#b42318 }
+.req { color:#b42318 }
+.questions { margin-top:1rem }
+.q { padding:0.75rem 1rem; border-radius:12px; margin-bottom:0.75rem }
+.opts { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:0.5rem; margin-top:0.5rem }
+.opts > * { min-width: 0; }
+.q input, .q textarea { width: 100%; }
+.q-actions { margin-top:0.5rem }
+.form-actions { margin-top:1rem }
